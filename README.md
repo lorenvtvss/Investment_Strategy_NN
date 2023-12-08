@@ -1,1 +1,5 @@
-# Investment_Strategy_NN
+# Investments: Machine Learning for Finance
+
+Investment Strategy using Neural Networks (Group Project)
+
+We construct a trading algorithm using convolutional and bidirectional LSTM neural networks for three specific combinations of signals and targets as predictors for market movements. The objective is to build a weekly trading strategy, which invests in the market solely, when predictors forecast a value above or below a specific threshold with the intention of possibly achieving returns higher than the market. We find, that an extended version of the convolutional neural network produces the highest in-sample and out-of-sample Information and Sharpe ratio for some target and signal combinations. Moreover, we find, that strategy performances are highly sensitive to minor changes in Window Generator input parameters.
